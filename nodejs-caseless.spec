@@ -8,7 +8,7 @@
 
 Name:		%{?scl_prefix}nodejs-caseless
 Version:	0.11.0
-Release:	2%{?dist}
+Release:	1%{?dist}
 Summary:	Caseless object set/get/has, very useful when working with HTTP headers.
 Url:		https://github.com/mikeal/caseless
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -53,8 +53,5 @@ node test.js
 %license LICENSE
 
 %changelog
-* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.11.0-2
-- rebuilt
-
 * Thu Jul 16 2015 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.11.0-1
 - Initial build
